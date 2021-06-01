@@ -1,0 +1,79 @@
+body{
+  font-family:'Roboto',sans-serif;
+  /*background-image: linear-gradient(90deg,white, silver) ;*/
+  background-image: linear-gradient(90deg,rgba(173, 183, 159, 0.25), white) ;
+}
+
+.field{
+  border-collapse: collapse;
+  width: 98%;
+ 
+}
+.table{
+
+  width: 100%;
+}
+
+th{
+  background-color: rgb(125, 219, 125);
+  padding: 8px;
+  text-align: center;
+
+}
+td {
+ 
+  padding: 8px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+tr:hover {background-color:#f5f5f5;}
+
+.but{
+
+  width:5%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  background-color:#b0e0e6;
+
+}
+
+
+.but:hover{
+    
+  background-color:red;
+  width: 100;
+
+}
+
+.btn {
+  
+  border: none;
+  color: black;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.btn:hover {
+  background-color: RoyalBlue;
+}
+
+select{
+
+  background-color: lightcyan;
+  height: 20px;
+
+}
+
+legend{
+
+  text-align: center;
+  text-shadow: 2px 2px 5px red;
+}
+
+
+
+
+
+
